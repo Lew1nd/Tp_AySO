@@ -1,0 +1,86 @@
+ls
+ls -la
+cd
+ls -la
+pwd
+cd /
+ls -la
+pwsd (1)
+man pwd
+man ls
+man cp
+vagrant -h
+vagrant --help
+--help
+-h
+vagrant --help
+-la -la
+-ls -la
+ls -la
+vagrant status
+ls -la
+cat << EOF > README
+EOF
+
+bc
+bc <<< 1/0
+cd /
+ls -la
+cd /proc
+ls -la
+cat cpuinfo
+grep -o processor cpuinfo
+cd
+tail -f /var/log/dmesg
+journalctl
+journalctl -f -k | grep -i nic
+ls
+history
+ls -la
+-ls la
+q
+cd
+cd /home
+-ls la
+ls -la
+cd /vagrant
+ls -la
+cd repogit/
+ls -la
+cd Tp_AySO/
+ls -la
+man tcpdump
+tcpdump -i eth1
+sudo tcpdump -i eth1
+ip link show
+ifconfig -a
+sudo tcpdump -D
+echo Con sudo tcpdump se puede capturar el tráfico > comando_dump_net
+ls -la
+cat comando_dump_net 
+gid add comando_dump_net 
+git add comando_dump_net 
+git status
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+git status
+ls -la
+car << EOF >> README.md
+Alumno: Tomás
+División: Div-116
+Turno: Mañana
+EOF
+
+cat <<EOF>> README.md
+Alumno: Tomás
+División: Div-116
+Turno: Mañana
+EOF
+
+ls -la
+rm README
+ls -la
+git add README.md
+git status
+git commit -m "feat: se agregó mi nombre, división y turno a README.md"
+history
+history -a
